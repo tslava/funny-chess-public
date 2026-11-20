@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Funny Chess — chess for kids 6+ against friendly robots</title>
+<meta name="description" content="Free browser chess for kids 6+ against friendly robots. Nine worlds, hints that teach, take back a move even after checkmate.">
+<meta property="og:title" content="Funny Chess">
+<meta property="og:description" content="Free browser chess for kids 6+ against friendly robots.">
+<meta property="og:image" content="images/cover.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700;900&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#2F2A4A;--bg:#FFEFD0;--card:#FFF6E5;--yel:#FFC93C;--muted:#5E5878}
+*{box-sizing:border-box}
+html{color-scheme:light}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:Nunito,system-ui,sans-serif;font-weight:700;line-height:1.5;
+  background-image:radial-gradient(#F5D9A6 2.5px,transparent 2.6px);background-size:26px 26px}
+main{max-width:760px;margin:0 auto;padding:24px 16px 48px}
+.cover{display:block;width:100%;max-width:630px;margin:0 auto;border:4px solid var(--ink);border-radius:24px;box-shadow:0 8px 0 var(--ink)}
+h1{font-size:44px;font-weight:900;text-align:center;margin:24px 0 4px}
+.lead{text-align:center;font-size:20px;margin:0 0 20px}
+.play{display:block;width:max-content;max-width:100%;margin:0 auto 28px;background:var(--yel);color:var(--ink);text-decoration:none;
+  font-weight:900;font-size:22px;padding:14px 28px;border:3px solid var(--ink);border-radius:18px;box-shadow:0 5px 0 var(--ink)}
+.play:active{transform:translateY(3px);box-shadow:0 2px 0 var(--ink)}
+.widget{display:flex;justify-content:center;margin:0 0 32px}
+.widget iframe{max-width:100%;border:0}
+section{background:var(--card);border:3px solid var(--ink);border-radius:22px;box-shadow:0 5px 0 var(--ink);padding:18px 22px;margin:0 0 22px}
+h2{font-size:24px;font-weight:900;margin:0 0 8px}
+ul{margin:0;padding-left:20px}
+li{margin:4px 0}
+p{margin:6px 0}
+.shots{display:flex;gap:12px;overflow-x:auto;padding:4px 2px 12px;margin:0 0 22px;scroll-snap-type:x mandatory}
+.shots img{height:360px;width:auto;border:3px solid var(--ink);border-radius:18px;box-shadow:0 4px 0 var(--ink);scroll-snap-align:center;flex:0 0 auto}
+.muted{color:var(--muted);font-size:15px}
+footer{text-align:center;color:var(--muted);font-size:14px;margin-top:28px}
+a{color:#C8382E}
+@media (max-width:520px){h1{font-size:34px}.lead{font-size:18px}.shots img{height:300px}}
+</style>
+</head>
+<body>
+<main>
+  <a href="https://tslava.itch.io/funny-chess"><img class="cover" src="images/cover.png" alt="Funny Chess: play chess with a friendly robot"></a>
+  <h1>Funny Chess</h1>
+  <p class="lead">Chess for kids 6+ against friendly robots. Free, in the browser, no sign-up.</p>
+  <a class="play" href="https://tslava.itch.io/funny-chess">▶ Play free on itch.io</a>
+
+  <div class="widget">
+    <iframe src="https://itch.io/embed/5402940" width="552" height="167" title="Funny Chess on itch.io"><a href="https://tslava.itch.io/funny-chess">Funny Chess by tslava</a></iframe>
+  </div>
+
+  <div class="shots" aria-label="Screenshots">
+    <img src="images/screenshot-hints.png" alt="Tap a piece to see its moves">
+    <img src="images/screenshot-knight.png" alt="The knight jumps in an L">
+    <img src="images/screenshot-why-mate.png" alt="Arrows explain why it is checkmate">
+    <img src="images/screenshot-pro.png" alt="Playing against Pro in the City world">
+    <img src="images/screenshot-chocolate.png" alt="The Chocolate world">
+    <img src="images/screenshot-win.png" alt="You win!">
+  </div>
+
+  <section>
+    <h2>What's inside</h2>
+    <ul>
+      <li><b>Three robots:</b> Newbie, Trickster and Pro. They think out loud, react to your moves and never laugh at mistakes. Tap the robot and it moves at once.</li>
+      <li><b>Nine worlds:</b> Puzzle, Classic, Notebook, Chocolate, Clouds, Space, Junkyard, Islands and City. Switch at any time.</li>
+      <li><b>Hints that teach:</b> dots show where a piece can go, lines show how the knight jumps.</li>
+      <li><b>Take back a move</b>, even after checkmate.</li>
+      <li><b>See why it is checkmate:</b> arrows show who gives check and which piece keeps the king off each square.</li>
+      <li><b>Coins</b> for moves, captures, checks, castling and promotion.</li>
+      <li><b>Several languages.</b> Made for phones and tablets held upright.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>For parents and teachers</h2>
+    <ul>
+      <li>Age 6 and up. Kids who don't know the rules yet learn them by tapping pieces.</li>
+      <li>No ads, no accounts, no data collection.</li>
+      <li>Best on a tablet held upright.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Who made it</h2>
+    <p>A dad and his daughter made Funny Chess together, and her younger brother tested it and asked for more. It is our first game.</p>
+    <p class="muted">Ideas for later: a "no hints" mode, sound, playing as black, something to spend coins on.</p>
+  </section>
+
+  <footer>
+    <p>Chess rules: chess.js (BSD-2-Clause). Font: Nunito (SIL OFL). Code and artwork were made with the help of AI tools.</p>
+    <p>© 2026 the Funny Chess authors. All rights reserved.</p>
+  </footer>
+</main>
+</body>
+</html>
